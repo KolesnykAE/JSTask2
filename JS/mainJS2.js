@@ -523,14 +523,14 @@
  // - масив з числами [100,250,50,168,120,345,188],
  //    Які характеризують вартість окремої покупки. обрахувати середній чек.
 
-    let numArr = [100,250,50,168,120,345,188];
-    let summ;
-    for (let i = 0; i < numArr.length; i++) {
-        summ = numArr[0] + numArr[1];
-        summ = summ + numArr[i+1];
-
-    }
-    console.log(summ)
+    // let numArr = [100,250,50,168,120,345,188];
+    // let summ = 0;
+    // for (let i = 0; i < numArr.length; i++) {
+    //     summ += numArr[i];
+    // }
+    //
+    // let resultMiddle = summ / numArr.length;
+    // console.log(resultMiddle);
 
 
 
